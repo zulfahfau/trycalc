@@ -130,8 +130,10 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ButtonZero(btnText: '0'),
-                tryButton(btnText: '.'),
-                tryButton(btnText: '='),
+                keyPadFun(['.', '=']),
+
+                // tryButton(btnText: '.'),
+                // tryButton(btnText: '='),
 
                 // btn('.'),
                 // btn('='),
