@@ -76,10 +76,10 @@ class MyHomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 keyPadFun(['AC', '+/-', '%', '/']),
-                const tryButton(btnText: 'AC'),
-                const tryButton(btnText: '+/-'),
-                const tryButton(btnText: '%'),
-                const tryButton(btnText: '/'),
+                // const tryButton(btnText: 'AC'),
+                // const tryButton(btnText: '+/-'),
+                // const tryButton(btnText: '%'),
+                // const tryButton(btnText: '/'),
               ],
             ),
             Row(
