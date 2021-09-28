@@ -75,6 +75,7 @@ class MyHomePage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                keyPadFun(['AC', '+/-', '%', '/']),
                 const tryButton(btnText: 'AC'),
                 const tryButton(btnText: '+/-'),
                 const tryButton(btnText: '%'),
@@ -84,10 +85,12 @@ class MyHomePage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const tryButton(btnText: '7'),
-                const tryButton(btnText: '8'),
-                const tryButton(btnText: '9'),
-                const tryButton(btnText: 'x'),
+                keyPadFun(['7', '8', '9', 'x']),
+
+                // const tryButton(btnText: '7'),
+                // const tryButton(btnText: '8'),
+                // const tryButton(btnText: '9'),
+                // const tryButton(btnText: 'x'),
                 // btn('7'),
                 // btn('8'),
                 // btn('9'),
@@ -97,10 +100,12 @@ class MyHomePage extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                const tryButton(btnText: '4'),
-                const tryButton(btnText: '5'),
-                const tryButton(btnText: '6'),
-                const tryButton(btnText: '-'),
+                keyPadFun(['4', '5', '6', '-']),
+
+                // const tryButton(btnText: '4'),
+                // const tryButton(btnText: '5'),
+                // const tryButton(btnText: '6'),
+                // const tryButton(btnText: '-'),
                 // btn('4'),
                 // btn('5'),
                 // btn('6'),
